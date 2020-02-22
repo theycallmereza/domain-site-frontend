@@ -1,0 +1,9 @@
+.card a:link {
+  text-decoration: none;
+}
+.card a {
+  color: $color-block;
+}
+.card {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.5);
+}

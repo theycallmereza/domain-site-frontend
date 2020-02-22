@@ -1,0 +1,21 @@
+@import url("https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.css");
+body {
+  font-family: Nazanin; }
+
+.rtl {
+  direction: rtl; }
+
+.red-text {
+  color: tomato; }
+
+.nav-con {
+  border-bottom: rgba(0, 0, 0, 0.5) solid 1px; }
+
+.card a:link {
+  text-decoration: none; }
+
+.card a {
+  color: rgba(0, 0, 0, 0.5); }
+
+.card {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); }
