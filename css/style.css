@@ -35,6 +35,26 @@ body {
   color: transparent;
   transition: all .2s; }
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 .nav-con {
   border-bottom: #a80038 solid 1px; }
 
@@ -53,6 +73,10 @@ body {
 .card-header {
   font-family: 'Yeon Sung', Arial, Helvetica, sans-serif; }
 
+.btn-hover:hover {
+  color: #fbf9fa;
+  background-color: #fd0054; }
+
 .carousel-section {
   background-image: linear-gradient(to right bottom, #ff0068, #a80038);
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
@@ -64,3 +88,13 @@ body {
 
 .bg-card {
   background-image: linear-gradient(to right bottom, #ff0068, #a80038); }
+
+.animation-left {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+  animation-timing-function: ease-out; }
+
+.animation-right {
+  animation-name: moveInRight;
+  animation-duration: 5s;
+  animation-timing-function: ease-out; }

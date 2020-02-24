@@ -10,3 +10,13 @@
 .bg-card {
   background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
 }
+.animation-left {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+}
+.animation-right {
+  animation-name: moveInRight;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+}
