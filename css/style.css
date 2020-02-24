@@ -5,11 +5,32 @@ body {
 .rtl {
   direction: rtl; }
 
-.red-text {
-  color: #dc3545; }
+.b-light {
+  background-color: #fbf9fa; }
+
+.b-dark {
+  background-color: #000000; }
+
+.b-pink {
+  background-color: #fd0054; }
+
+.b-pink-dark {
+  background-color: #a80038; }
+
+.c-pink-dark {
+  color: #a80038; }
+
+.c-pink {
+  color: #fd0054; }
 
 .nav-con {
-  border-bottom: #dc3545 solid 1px; }
+  border-bottom: #a80038 solid 1px; }
+
+.nav-con,
+.nav-con a:link,
+.nav-con a:active,
+.nav-con a:visited {
+  color: #a80038; }
 
 .card a:link {
   text-decoration: none; }
@@ -19,3 +40,8 @@ body {
 
 .card-header {
   font-family: 'Yeon Sung', Arial, Helvetica, sans-serif; }
+
+.carousel-section {
+  background-image: linear-gradient(to right bottom, #ff0068, #a80038);
+  clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  height: 75vh; }

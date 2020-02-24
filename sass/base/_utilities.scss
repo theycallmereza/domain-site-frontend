@@ -1,6 +1,25 @@
 .rtl {
   direction: rtl;
 }
-.red-text {
-  color: $color-red;
+
+.b-light {
+  background-color: $color-light;
+}
+
+.b-dark {
+  background-color: $color-dark;
+}
+
+.b-pink {
+  background-color: $color-pink;
+}
+
+.b-pink-dark {
+  background-color: $color-pink-dark;
+}
+.c-pink-dark {
+  color: $color-pink-dark;
+}
+.c-pink {
+  color: $color-pink;
 }

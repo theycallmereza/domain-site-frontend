@@ -1,3 +1,9 @@
 .nav-con {
-  border-bottom: $color-red solid 1px;
+  border-bottom: $color-pink-dark solid 1px;
+}
+.nav-con,
+.nav-con a:link,
+.nav-con a:active,
+.nav-con a:visited {
+  color: $color-pink-dark;
 }
