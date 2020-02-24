@@ -3,3 +3,10 @@
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   height: 75vh;
 }
+.last-domains-section {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+.bg-card {
+  background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
+}
