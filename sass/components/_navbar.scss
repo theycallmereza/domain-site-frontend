@@ -1,9 +1,24 @@
 .nav-con {
   border-bottom: $color-pink-dark solid 1px;
 }
+
 .nav-con,
 .nav-con a:link,
 .nav-con a:active,
 .nav-con a:visited {
   color: $color-pink-dark;
+}
+
+.dropdown-toggle:after {
+  content: none
+}
+.dropdown-menu {
+  width: 40vw !important;
+}
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }

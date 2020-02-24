@@ -64,6 +64,19 @@ body {
 .nav-con a:visited {
   color: #a80038; }
 
+.dropdown-toggle:after {
+  content: none; }
+
+.dropdown-menu {
+  width: 40vw !important; }
+
+.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
 .card a:link {
   text-decoration: none; }
 
