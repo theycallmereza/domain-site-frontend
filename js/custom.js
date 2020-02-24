@@ -27,4 +27,14 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 5000,
     });
+    $(window).scroll(function () {
+        let position = $(this).scrollTop();
+        if (position >= 100) {
+            $('.row-left').addClass('animation-left')
+            $('.row-right').addClass('animation-right')
+        }else {
+            $('.row-left').removeClass('animation-left')
+            $('.row-right').removeClass('animation-right')
+        }
+    });
 });
