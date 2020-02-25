@@ -6,6 +6,7 @@
 .last-domains-section {
   margin-top: -200px;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 .bg-card {
   background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
@@ -19,4 +20,13 @@
   animation-name: moveInRight;
   animation-duration: 3s;
   animation-timing-function: ease-out;
+}
+.updated-domains{
+  transform: skewY(-5deg);
+  margin-top: -100px;
+  & > * {
+    transform: skewY(5deg);
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
 }

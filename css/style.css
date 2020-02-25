@@ -33,6 +33,9 @@ body {
 .c-pink-light {
   color: #ff0068; }
 
+.c-dark {
+  color: #000000; }
+
 .eng-font {
   font-family: 'Lato', Arial, Helvetica, sans-serif; }
 
@@ -112,7 +115,8 @@ body {
 
 .last-domains-section {
   margin-top: -200px;
-  padding-top: 200px; }
+  padding-top: 200px;
+  padding-bottom: 200px; }
 
 .bg-card {
   background-image: linear-gradient(to right bottom, #ff0068, #a80038); }
@@ -126,3 +130,11 @@ body {
   animation-name: moveInRight;
   animation-duration: 3s;
   animation-timing-function: ease-out; }
+
+.updated-domains {
+  transform: skewY(-5deg);
+  margin-top: -100px; }
+  .updated-domains > * {
+    transform: skewY(5deg);
+    padding-bottom: 40px;
+    padding-top: 40px; }
