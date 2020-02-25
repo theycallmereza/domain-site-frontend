@@ -94,10 +94,12 @@ body {
   font-family: 'Lato', Arial, Helvetica, sans-serif; }
 
 .slick-slide {
-  transform: scale(0.9); }
+  transform: scale(0.9);
+  transition: all .5s; }
 
 .slick-current {
-  transform: scale(1.1); }
+  transform: scale(1.1);
+  transition: all .5s; }
 
 .btn-hover:hover {
   color: #fbf9fa;
