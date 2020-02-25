@@ -86,6 +86,12 @@ body {
 .card-header {
   font-family: 'Yeon Sung', Arial, Helvetica, sans-serif; }
 
+.slick-slide {
+  transform: scale(0.9); }
+
+.slick-current {
+  transform: scale(1.1); }
+
 .btn-hover:hover {
   color: #fbf9fa;
   background-color: #fd0054; }

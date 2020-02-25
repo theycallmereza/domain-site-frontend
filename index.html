@@ -42,9 +42,10 @@
                         <form class="form-inline px-3 py-1">
                             <div class="input-group w-100">
                                 <input type="text" class="form-control" placeholder="جستجوی دامنه">
-                              <div class="input-group-prepend">
-                                <button type="submit" class="btn b-pink-dark c-light btn-hover"><i class="fas fa-search"></i></button>
-                              </div>
+                                <div class="input-group-prepend">
+                                    <button type="submit" class="btn b-pink-dark c-light btn-hover"><i
+                                            class="fas fa-search"></i></button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -52,8 +53,10 @@
             </ul>
 
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item text-right"><a class="nav-link" href="#">ورود</a></li>
-                <li class="nav-item text-right"><a class="nav-link" href="#">ثبت نام</a></li>
+                <li class="nav-item text-right"><a class="nav-link" href="#" data-toggle="modal"
+                                                   data-target="#loginModal">ورود</a></li>
+                <li class="nav-item text-right"><a class="nav-link" href="#" data-toggle="modal"
+                                                   data-target="#signupModal">ثبت نام</a></li>
             </ul>
 
 
@@ -271,6 +274,66 @@
         &copy; Copyright 2020 <p>کلیه حقوق مادی و معنوی این سایت متعلق به .. می باشد</p>
     </div>
 </footer>
+
+
+<!-- Modal -->
+<div class="modal fade justify-content-center" id="loginModal" tabindex="-1" role="dialog"
+     aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body rtl">
+                <h3 class="text-center primary-heading">ورود</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email1" placeholder="شماره موبایل">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password1" placeholder="رمز عبور">
+                    </div>
+                    <button type="button" class="btn btn-block b-pink-dark btn-hover c-light">ورود</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#" data-toggle="modal"
+                   data-target="#signupModal" data-dismiss="modal">ثبت نام</a>
+                <span>کاربر جدید هستید؟</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade justify-content-center" id="signupModal" tabindex="-1" role="dialog"
+     aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body rtl">
+                <h3 class="text-center primary-heading">ثبت نام</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="" placeholder="شماره موبایل">
+                    </div>
+                    <button type="button" class="btn btn-block b-pink-dark btn-hover c-light">ثبت نام</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#" data-toggle="modal"
+                   data-target="#loginModal" data-dismiss="modal">ورود</a>
+                <span>قبلا ثبت نام کرده اید؟</span>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="js/jquery-3.4.1.min.js"></script>
