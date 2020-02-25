@@ -1,6 +1,10 @@
 @import url('https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.css');
 
+@font-face {
+  font-family: IranSans;
+  src: url("../../fonts/IRANSansWeb.ttf") format('truetype');
+}
 
 body {
-  font-family: Nazanin;
+  font-family: IranSans;
 }

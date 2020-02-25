@@ -1,6 +1,10 @@
 @import url("https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.css");
+@font-face {
+  font-family: IranSans;
+  src: url("../../fonts/IRANSansWeb.ttf") format("truetype"); }
+
 body {
-  font-family: Nazanin; }
+  font-family: IranSans; }
 
 .rtl {
   direction: rtl; }
@@ -28,6 +32,9 @@ body {
 
 .c-pink-light {
   color: #ff0068; }
+
+.eng-font {
+  font-family: 'Lato', Arial, Helvetica, sans-serif; }
 
 .primary-heading {
   background-image: linear-gradient(to right, #ff0068, #a80038);
@@ -84,7 +91,7 @@ body {
   text-decoration: none; }
 
 .card-header {
-  font-family: 'Yeon Sung', Arial, Helvetica, sans-serif; }
+  font-family: 'Lato', Arial, Helvetica, sans-serif; }
 
 .slick-slide {
   transform: scale(0.9); }
