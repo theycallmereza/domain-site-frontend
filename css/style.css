@@ -14,37 +14,37 @@ body {
   direction: rtl; }
 
 .b-light {
-  background-color: #fbf9fa; }
+  background-color: rgba(251, 249, 250, 0.8); }
 
 .b-dark {
-  background-color: #000000; }
+  background-color: #142850; }
 
 .b-pink {
-  background-color: #fd0054; }
+  background-color: #0c7b93; }
 
 .b-pink-dark {
-  background-color: #a80038; }
+  background-color: #27496d; }
 
 .c-pink-dark {
-  color: #a80038; }
+  color: #27496d; }
 
 .c-pink {
-  color: #fd0054; }
+  color: #0c7b93; }
 
 .c-light {
   color: #fbf9fa; }
 
 .c-pink-light {
-  color: #ff0068; }
+  color: #00a8cc; }
 
 .c-dark {
-  color: #000000; }
+  color: #142850; }
 
 .eng-font {
   font-family: 'Lato', Arial, Helvetica, sans-serif; }
 
 .primary-heading {
-  background-image: linear-gradient(to right, #ff0068, #a80038);
+  background-image: linear-gradient(to right, #00a8cc, #27496d);
   -webkit-background-clip: text;
   color: transparent;
   transition: all .2s; }
@@ -70,13 +70,13 @@ body {
     transform: translate(0); } }
 
 .nav-con {
-  border-bottom: #a80038 solid 1px; }
+  border-bottom: #27496d solid 1px; }
 
 .nav-con,
 .nav-con a:link,
 .nav-con a:active,
 .nav-con a:visited {
-  color: #a80038; }
+  color: #27496d; }
 
 .dropdown-toggle:after {
   content: none; }
@@ -114,10 +114,10 @@ body {
 
 .btn-hover:hover {
   color: #fbf9fa;
-  background-color: #fd0054; }
+  background-color: #0c7b93; }
 
 .carousel-section {
-  background-image: linear-gradient(to right bottom, #ff0068, #a80038);
+  background-image: linear-gradient(to right bottom, #00a8cc, #27496d);
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   height: 75vh; }
 
@@ -127,7 +127,7 @@ body {
   padding-bottom: 200px; }
 
 .bg-card {
-  background-image: linear-gradient(to right bottom, #ff0068, #a80038); }
+  background-image: linear-gradient(to right bottom, #00a8cc, #27496d); }
 
 .animation-left {
   animation-name: moveInLeft;
@@ -140,6 +140,7 @@ body {
   animation-timing-function: ease-out; }
 
 .updated-domains {
+  background-image: linear-gradient(to right bottom, #00a8cc, #27496d);
   transform: skewY(-5deg);
   margin-top: -100px; }
   .updated-domains > * {

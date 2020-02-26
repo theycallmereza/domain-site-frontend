@@ -22,6 +22,7 @@
   animation-timing-function: ease-out;
 }
 .updated-domains{
+  background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
   transform: skewY(-5deg);
   margin-top: -100px;
   & > * {
