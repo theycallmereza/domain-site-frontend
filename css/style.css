@@ -6,6 +6,10 @@
 body {
   font-family: IranSans; }
 
+.social-media {
+  margin-top: -100px;
+  padding-top: 200px; }
+
 .rtl {
   direction: rtl; }
 
@@ -91,10 +95,14 @@ body {
   text-decoration: none; }
 
 .card a {
-  text-decoration: none; }
+  text-decoration: none;
+  transition: transform .3s; }
 
 .card-header {
   font-family: 'Lato', Arial, Helvetica, sans-serif; }
+
+.card-feature:hover {
+  transform: translateY(-15px) scale(1.03); }
 
 .slick-slide {
   transform: scale(0.9);

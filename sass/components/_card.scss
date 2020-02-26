@@ -4,8 +4,12 @@
 .card a {
   text-decoration: none;
   // color: $color-block;
+  transition: transform .3s;
 }
 .card-header {
   font-family: 'Lato', Arial, Helvetica, sans-serif ;
   // color: $color-red;
+}
+.card-feature:hover {
+    transform: translateY(-15px) scale(1.03);
 }
