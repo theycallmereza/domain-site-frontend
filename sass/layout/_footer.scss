@@ -1,0 +1,5 @@
+.footer {
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -150px;
+}
