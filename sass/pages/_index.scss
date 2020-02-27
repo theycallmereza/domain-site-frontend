@@ -1,16 +1,21 @@
+.search-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $color-light;
+}
+
 .carousel-section {
-  background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
   clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
   height: 75vh;
 }
+
 .last-domains-section {
   margin-top: -200px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.bg-card {
-  background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
-}
+
 .animation-left {
   animation-name: moveInLeft;
   animation-duration: 3s;
@@ -21,8 +26,8 @@
   animation-duration: 3s;
   animation-timing-function: ease-out;
 }
-.updated-domains{
-  background-image: linear-gradient(to right bottom, $color-pink-light, $color-pink-dark);
+.updated-domains-section {
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
   transform: skewY(-5deg);
   margin-top: -100px;
   & > * {

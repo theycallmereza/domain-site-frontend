@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // carousel setting
     $('.card-slider').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -25,15 +26,25 @@ $(document).ready(function () {
         ],
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3000,
+    });
+    // animation with scroll
+    $(window).scroll(function () {
+        let position = $(this).scrollTop();
+        if (position >= 200) {
+            $('.row-left').addClass('animation-left')
+        }
+        else {
+            $('.row-left').removeClass('animation-left')
+        }
     });
     $(window).scroll(function () {
         let position = $(this).scrollTop();
-        if (position >= 100) {
-            $('.row-left').addClass('animation-left')
+        console.log(position);
+        if (position >= 850 ) {
             $('.row-right').addClass('animation-right')
-        }else {
-            $('.row-left').removeClass('animation-left')
+        }
+        else {
             $('.row-right').removeClass('animation-right')
         }
     });

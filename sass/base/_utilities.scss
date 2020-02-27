@@ -1,38 +1,9 @@
 .rtl {
   direction: rtl;
 }
-
-.b-light {
-  background-color: rgba($color-light, .8);
+.iran-sans-bold {
+  font-family: IranSansBold;
 }
-
-.b-dark {
-  background-color: $color-dark;
-}
-
-.b-pink {
-  background-color: $color-pink;
-}
-
-.b-pink-dark {
-  background-color: $color-pink-dark;
-}
-.c-pink-dark {
-  color: $color-pink-dark;
-}
-.c-pink {
-  color: $color-pink;
-}
-.c-light {
-  color: $color-light;
-}
-.c-pink-light {
-  color: $color-pink-light;
-}
-.c-dark {
-  color: $color-dark;
-}
-
 .eng-font {
     font-family: 'Lato', Arial, Helvetica, sans-serif ;
 }

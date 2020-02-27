@@ -1,7 +1,10 @@
-@import url("https://cdn.fontcdn.ir/Font/Persian/Nazanin/Nazanin.css");
 @font-face {
   font-family: IranSans;
   src: url("../../fonts/IRANSansWeb.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IranSansBold;
+  src: url("../../fonts/IRANSansWeb_Bold.ttf") format("truetype"); }
 
 body {
   font-family: IranSans; }
@@ -13,32 +16,8 @@ body {
 .rtl {
   direction: rtl; }
 
-.b-light {
-  background-color: rgba(251, 249, 250, 0.8); }
-
-.b-dark {
-  background-color: #142850; }
-
-.b-pink {
-  background-color: #0c7b93; }
-
-.b-pink-dark {
-  background-color: #27496d; }
-
-.c-pink-dark {
-  color: #27496d; }
-
-.c-pink {
-  color: #0c7b93; }
-
-.c-light {
-  color: #fbf9fa; }
-
-.c-pink-light {
-  color: #00a8cc; }
-
-.c-dark {
-  color: #142850; }
+.iran-sans-bold {
+  font-family: IranSansBold; }
 
 .eng-font {
   font-family: 'Lato', Arial, Helvetica, sans-serif; }
@@ -69,27 +48,23 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
-.nav-con {
-  border-bottom: #27496d solid 1px; }
+.navbar {
+  box-shadow: 2px 2px 5px #0c7b93;
+  opacity: 0.9;
+  background: #fff; }
 
-.nav-con,
-.nav-con a:link,
-.nav-con a:active,
-.nav-con a:visited {
-  color: #27496d; }
+.navbar .active {
+  font-family: IranSansBold; }
 
-.dropdown-toggle:after {
-  content: none; }
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem; }
 
-.dropdown-menu {
-  width: 40vw !important; }
+.primary-card {
+  background-image: linear-gradient(to right bottom, #00a8cc, #27496d); }
 
-.dropdown-menu-center {
-  right: auto;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
-  transform: translate(-50%, 0); }
+.primary-card a {
+  color: #fbf9fa; }
 
 .card a:link {
   text-decoration: none; }
@@ -98,23 +73,45 @@ body {
   text-decoration: none;
   transition: transform .3s; }
 
-.card-header {
-  font-family: 'Lato', Arial, Helvetica, sans-serif; }
-
 .card-feature:hover {
   transform: translateY(-15px) scale(1.03); }
 
 .slick-slide {
-  transform: scale(0.9);
-  transition: all .5s; }
+  transform: scale(0.9); }
 
 .slick-current {
-  transform: scale(1.1);
-  transition: all .5s; }
+  transform: scale(1.1); }
 
-.btn-hover:hover {
+.btn {
   color: #fbf9fa;
-  background-color: #0c7b93; }
+  background-color: #27496d;
+  border-radius: 50px;
+  transition: all .2s; }
+  .btn:hover {
+    color: #fbf9fa;
+    background-color: #0c7b93;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      background-color: #00a8cc;
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+  .btn::after {
+    content: "";
+    display: inline;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s; }
+
+.search-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fbf9fa; }
 
 .carousel-section {
   background-image: linear-gradient(to right bottom, #00a8cc, #27496d);
@@ -126,9 +123,6 @@ body {
   padding-top: 200px;
   padding-bottom: 200px; }
 
-.bg-card {
-  background-image: linear-gradient(to right bottom, #00a8cc, #27496d); }
-
 .animation-left {
   animation-name: moveInLeft;
   animation-duration: 3s;
@@ -139,11 +133,11 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-out; }
 
-.updated-domains {
+.updated-domains-section {
   background-image: linear-gradient(to right bottom, #00a8cc, #27496d);
   transform: skewY(-5deg);
   margin-top: -100px; }
-  .updated-domains > * {
+  .updated-domains-section > * {
     transform: skewY(5deg);
     padding-bottom: 40px;
     padding-top: 40px; }

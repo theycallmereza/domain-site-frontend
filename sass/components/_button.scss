@@ -1,4 +1,31 @@
-.btn-hover:hover {
+.btn {
   color: $color-light;
-  background-color: $color-pink;
+  background-color: $color-primary-dark;
+  border-radius: 50px;
+  transition: all .2s;
+
+  &:hover {
+    color: $color-light;
+    background-color: $color-primary;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba($color-black,.2);
+    &::after {
+      background-color: $color-primary-light;
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
 }

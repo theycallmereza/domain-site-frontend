@@ -1,24 +1,13 @@
-.nav-con {
-  border-bottom: $color-pink-dark solid 1px;
+.navbar {
+  box-shadow: 2px 2px 5px $color-primary;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .active {
+  font-family: IranSansBold;
 }
 
-.nav-con,
-.nav-con a:link,
-.nav-con a:active,
-.nav-con a:visited {
-  color: $color-pink-dark;
-}
-
-.dropdown-toggle:after {
-  content: none
-}
-.dropdown-menu {
-  width: 40vw !important;
-}
-.dropdown-menu-center {
-  right: auto;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
 }
