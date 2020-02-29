@@ -31,7 +31,7 @@ $(document).ready(function () {
     // animation with scroll
     $(window).scroll(function () {
         let position = $(this).scrollTop();
-        if (position >= 200) {
+        if (position >= 40) {
             $('.row-left').addClass('animation-left')
         }
         else {
@@ -41,7 +41,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         let position = $(this).scrollTop();
         console.log(position);
-        if (position >= 850 ) {
+        if (position >= 650 ) {
             $('.row-right').addClass('animation-right')
         }
         else {
