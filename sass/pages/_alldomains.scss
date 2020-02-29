@@ -1,0 +1,20 @@
+.all-domains-section {
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  clip-path: polygon(0 0, 100% 0, 100% 550px, 0 100%);
+  min-height: 650px;
+  @include respond(tab-land) {
+    clip-path: polygon(0 0, 100% 0, 100% 350px, 0 100%);
+    min-height: 400px;
+  }
+  @include respond(tab-port) {
+    clip-path: polygon(0 0, 100% 0, 100% 550px, 0 100%);
+    min-height: 600px;
+  }
+  @include respond(phone) {
+    clip-path: polygon(0 0, 100% 0, 100% 1000px, 0 100%);
+    min-height: 1050px;
+  }
+}
+.pagination .active a{
+  background-color: $color-primary-dark !important;
+}

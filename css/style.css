@@ -2,7 +2,7 @@
   html {
     font-size: 9px; } }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
   html {
     font-size: 8px; } }
 
@@ -123,6 +123,26 @@ body {
   clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
   margin-top: -150px; }
 
+.all-domains-section {
+  background-image: linear-gradient(to right bottom, #00a8cc, #27496d);
+  clip-path: polygon(0 0, 100% 0, 100% 550px, 0 100%);
+  min-height: 650px; }
+  @media only screen and (max-width: 1200px) {
+    .all-domains-section {
+      clip-path: polygon(0 0, 100% 0, 100% 350px, 0 100%);
+      min-height: 400px; } }
+  @media only screen and (max-width: 992px) {
+    .all-domains-section {
+      clip-path: polygon(0 0, 100% 0, 100% 550px, 0 100%);
+      min-height: 600px; } }
+  @media only screen and (max-width: 768px) {
+    .all-domains-section {
+      clip-path: polygon(0 0, 100% 0, 100% 1000px, 0 100%);
+      min-height: 1050px; } }
+
+.pagination .active a {
+  background-color: #27496d !important; }
+
 .search-section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -178,3 +198,6 @@ body {
   padding-top: 200px;
   margin-top: -100px;
   padding-bottom: 200px; }
+
+.detail-section {
+  background-color: #fbf9fa; }
